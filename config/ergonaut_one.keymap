@@ -40,20 +40,20 @@
         main {
             display-name = "MAIN";
             bindings = <
-&mt LGUI GRAVE    &kp Q  &kp W  &kp E      &kp R      &kp T      &kp Y      &kp U          &kp I      &kp O    &kp P     &minuscalc
-&mt LSHIFT EQUAL  &kp A  &kp S  &kp D      &kp F      &kp G      &kp H      &kp J          &kp K      &kp L    &kp SEMI  &mt RSHIFT SQT
-&kp LCTRL         &kp Z  &kp X  &kp C      &kp V      &kp B      &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &mt RALT BSLH
-                                &lt 1 TAB  &kp SPACE  &lt 2 RET  &lt 2 ESC  &kp BACKSPACE  &lt 1 DEL
+&mt LGUI ESC      &kp Q  &kp W  &kp E  &kp R      &kp T  &kp Y      &kp U          &kp I       &kp O    &kp P     &kp MINUS
+&mt LSHIFT EQUAL  &kp A  &kp S  &kp D  &kp F      &kp G  &kp H      &kp J          &kp K       &kp L    &kp SEMI  &mt RSHIFT SQT
+&kp LCTRL         &kp Z  &kp X  &kp C  &kp V      &kp B  &kp N      &kp M          &kp COMMA   &kp DOT  &kp FSLH  &mt LEFT_ALT BSLH
+                                &mo 1  &kp SPACE  &mo 2  &kp ENTER  &kp BACKSPACE  &kp DELETE
             >;
         };
 
         navigation {
             display-name = "NAV";
             bindings = <
-&kp LEFT_GUI  &kp F1  &kp F2   &kp F3   &kp F4   &kp PSCRN  &kp C_VOL_UP  &kp HOME       &kp UP     &kp END    &none  &kp CAPS
-&kp LSHIFT    &kp F5  &kp F6   &kp F7   &kp F8   &none      &kp K_MUTE    &kp LEFT       &kp DOWN   &kp RIGHT  &none  &kp RSHFT
-&kp LCTRL     &kp F9  &kp F10  &kp F11  &kp F12  &kp INS    &kp C_VOL_DN  &kp PG_UP      &kp K_APP  &kp PG_DN  &none  &kp RALT
-                               &trans   &trans   &trans     &trans        &kp BACKSPACE  &lt 1 DEL
+&kp LEFT_GUI  &kp F1  &kp F2   &kp F3   &kp F4   &kp PSCRN  &kp C_VOL_UP  &kp HOME       &kp UP      &kp END    &none  &kp CAPS
+&kp LSHIFT    &kp F5  &kp F6   &kp F7   &kp F8   &none      &kp K_MUTE    &kp LEFT       &kp DOWN    &kp RIGHT  &none  &kp GRAVE
+&kp LCTRL     &kp F9  &kp F10  &kp F11  &kp F12  &kp INS    &kp C_VOL_DN  &kp PG_UP      &kp K_APP   &kp PG_DN  &none  &kp LALT
+                               &trans   &trans   &trans     &kp ENTER     &kp BACKSPACE  &kp DELETE
             >;
         };
 
@@ -62,8 +62,8 @@
             bindings = <
 &kp LEFT_GUI      &kp EXCLAMATION  &kp AT_SIGN  &kp LBKT        &kp RBKT         &none   &kp SLASH      &kp N7  &kp N8   &kp N9  &kp KP_MINUS  &kp MINUS
 &mt LSHIFT EQUAL  &kp HASH         &kp DOLLAR   &kp LPAR        &kp RPAR         &none   &kp STAR       &kp N4  &kp N5   &kp N6  &kp KP_PLUS   &kp RSHIFT
-&kp LCTRL         &kp PERCENT      &kp CARET    &kp LEFT_BRACE  &kp RIGHT_BRACE  &none   &kp AMPERSAND  &kp N1  &kp N2   &kp N3  &none         &kp RALT
-                                                &trans          &trans           &trans  &trans         &kp N0  &kp DOT
+&kp LCTRL         &kp PERCENT      &kp CARET    &kp LEFT_BRACE  &kp RIGHT_BRACE  &none   &kp AMPERSAND  &kp N1  &kp N2   &kp N3  &none         &kp LALT
+                                                &trans          &trans           &trans  &kp TAB        &kp N0  &kp DOT
             >;
         };
 

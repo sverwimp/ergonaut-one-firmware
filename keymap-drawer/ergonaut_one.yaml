@@ -1,6 +1,7 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: '`', h: Gui}
+  - {t: Esc, h: Gui}
   - Q
   - W
   - E
@@ -11,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: '-', s: CALC}
+  - '-'
   - {t: '=', h: LSHIFT}
   - A
   - S
@@ -35,13 +36,13 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: NAV}
+  - {t: \, h: LEFT ALT}
+  - NAV
   - ␣
-  - {t: ⏎, h: SYM}
-  - {t: Esc, h: SYM}
+  - SYM
+  - ENTER
   - BACKSPACE
-  - {t: ⌦, h: NAV}
+  - DELETE
   NAV:
   - LEFT GUI
   - F1
@@ -66,7 +67,7 @@ layers:
   - ↓
   - →
   - ''
-  - Shift
+  - '`'
   - Ctrl
   - F9
   - F10
@@ -82,9 +83,9 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - BACKSPACE
-  - {t: ⌦, h: NAV}
+  - DELETE
   SYM:
   - LEFT GUI
   - '!'
@@ -125,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - ↹
   - '0'
   - .
   ADJ:
