@@ -53,7 +53,7 @@
 &kp LEFT_GUI  &kp F1  &kp F2   &kp F3   &kp F4   &kp PSCRN  &kp C_VOL_UP  &kp HOME       &kp UP      &kp END    &none  &kp CAPS
 &kp LSHIFT    &kp F5  &kp F6   &kp F7   &kp F8   &none      &kp K_MUTE    &kp LEFT       &kp DOWN    &kp RIGHT  &none  &kp GRAVE
 &kp LCTRL     &kp F9  &kp F10  &kp F11  &kp F12  &kp INS    &kp C_VOL_DN  &kp PG_UP      &kp K_APP   &kp PG_DN  &none  &kp LALT
-                               &trans   &trans   &trans     &kp ENTER     &kp BACKSPACE  &kp DELETE
+                               &trans   &trans   &trans     &kp TAB       &kp BACKSPACE  &kp DELETE
             >;
         };
 
