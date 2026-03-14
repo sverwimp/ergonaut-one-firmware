@@ -10,7 +10,6 @@ Below representation was generated with [`keymap-drawer`](https://github.com/cak
 
 ![Keymap Representation](./keymap-drawer/ergonaut_one.svg?raw=true "Keymap Representation")
 
-This layout is heavily inspired from [Watchman 42-key layout](https://github.com/aroum/Watchman-layouts)
 
 ## FAQ
 
@@ -42,7 +41,7 @@ You have two options on how to configure your desired keymap:
 3. Go to `Actions` tab in your Github repository, locate the latest build and wait for it to complete.
 4. Grab the `firmware.zip` archive
 
-### How to flash the keyboard?
+### How to flash the keyboard the first time?
 
 1. Obtain `firmware.zip`
 2. Unzip `firmware.zip` - you should have `ergonaut_one_left-seeeduino_xiao_ble-zmk.uf2` and `ergonaut_one_right-seeeduino_xiao_ble-zmk.uf2` files
@@ -52,6 +51,15 @@ You have two options on how to configure your desired keymap:
 6. Copy the corresponding firmware to the root directory of the new USB device
 7. Disconnect selected halve from the PC
 8. Repeat steps 3-7 for the other halve
+
+### Flashing the keyboard again with updated firmware
+
+1. Connect the left half of your keyboard to your PC.
+2. Enter bootloader mode:
+     - With the original firmware: Press Lower+Raise+top-left key on the left half.
+     - If you already have custom firmware or none at all: Press the "Reset" button on the PCB twice.
+3. Look for a new USB drive on your computer and move the `ergonaut_one_left-seeeduino_xiao_ble-zmk.uf2` file into it.
+4. Now repeat 1-3 for the right half.
 
 ### How to pair halves?
 
