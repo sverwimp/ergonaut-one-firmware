@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - {t: '''', h: RSHIFT}
-  - Ctrl
+  - {t: ↹, h: Ctrl}
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - SYM
   - ENTER
   - BACKSPACE
-  - ↹
+  - ⌦
   NAV:
   - LEFT GUI
   - F1
@@ -61,14 +61,14 @@ layers:
   - F6
   - F7
   - F8
-  - ''
+  - KP NUMLOCK
   - MUTE
   - ←
   - ↓
   - →
   - ''
   - '`'
-  - Ctrl
+  - {t: ↹, h: Ctrl}
   - F9
   - F10
   - F11
@@ -84,15 +84,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
-  - ⌦
-  - ↹
+  - BACKSPACE
+  - DELETE
   SYM:
   - LEFT GUI
   - '!'
   - '@'
   - '['
   - ']'
-  - CALCULATOR
+  - AL CALCULATOR
   - /
   - KP 7
   - KP 8
@@ -104,30 +104,30 @@ layers:
   - $
   - (
   - )
-  - ''
+  - Alt
   - '*'
   - KP 4
   - KP 5
   - KP 6
   - KP PLUS
   - RSHIFT
-  - Ctrl
+  - {t: ↹, h: Ctrl}
   - '%'
   - ^
   - '{'
   - '}'
-  - LEFT ALT
+  - ''
   - '&'
   - KP 1
   - KP 2
   - KP 3
-  - KP 0
+  - ''
   - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - ENTER
   - ','
+  - KP 0
   - .
   ADJ:
   - Boot
