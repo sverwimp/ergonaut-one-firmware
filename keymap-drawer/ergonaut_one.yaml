@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - {t: '''', h: RSHIFT}
-  - {t: ↹, h: Ctrl}
+  - Ctrl
   - Z
   - X
   - C
@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - {t: \, h: LEFT ALT}
-  - NAV
+  - {t: ↹, h: NAV}
   - ␣
   - SYM
   - ENTER
